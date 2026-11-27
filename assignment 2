@@ -1,0 +1,100 @@
+CPU vs GPU vs TPU vs NPU (Comparison)
+
+Introduction:
+👉🏻 Modern computing uses different types of processors depending on the task:
+
+•CPU: General purpose computing
+•GPU: Parallel processing (graphics + AI)
+•TPU: Google’s accelerator for neural networks
+•NPU: AI-focused processing unit found in phones/ laptops
+
+
+1) CPU (Central Processing Unit)
+
+🔹 Key Role
+•Handles general-purpose tasks
+•Runs operating systems and most software
+
+🔹 Strengths
+•Great at serial processing (one step after another)
+•Strong control logic (decision-making, system tasks)
+•Flexible for many types of workloads
+
+🔹 Weaknesses
+•Not optimized for heavy parallel operations (like matrix multiplication)
+•Slower for large-scale AI training/inference compared to GPUs/TPUs
+
+🧾 Example Uses
+•Web browsing, operating system tasks
+•Running databases, spreadsheets
+•General application processing
+
+
+ 2) GPU (Graphics Processing Unit)
+
+🔹 Key Role
+•Designed for massively parallel computations
+•Widely used for deep learning
+
+🔹 Strengths
+•Thousands of cores → performs many operations simultaneously
+•Very efficient for matrix multiplication and neural network computations
+•Works well for both training and inference
+
+🔹 Weaknesses
+•Power hungry (compared to NPUs for mobile)
+•Programming can be more complex than CPU
+
+🧾 Example Uses
+•Video rendering
+•Gaming
+•AI training/inference (e.g., using CUDA)
+
+
+3) TPU (Tensor Processing Unit)
+
+🔹 Key Role
+•Specialized AI chip optimized for neural networks
+•Developed by Google
+
+🔹 Strengths
+•Highly optimized for tensor operations
+•Faster and more power-efficient for AI workloads than general chips
+•Often used in large-scale cloud AI systems
+
+🔹 Weaknesses
+•Less general-purpose (not for every task)
+•Mostly used in Google ecosystems/cloud setups
+
+🧾 Example Uses
+•Google cloud AI services
+•Large deep learning model training/inference
+
+
+📱 4) NPU (Neural Processing Unit)
+
+🔹 Key Role
+•Dedicated to AI inference (and sometimes limited training)
+•Common in mobile devices and edge devices
+
+🔹 Strengths
+•Very energy efficient
+•Low latency inference (fast responses)
+•Helps run AI features directly on the device (no cloud needed)
+
+🔹 Weaknesses
+•Limited flexibility compared to CPU/GPU
+•Performance depends on device and model optimization
+
+🧾 Example Uses
+•Face recognition
+•Speech recognition
+•Camera enhancements and real-time AI
+
+
+Conclusion:
+
+•CPU is best for general tasks and system control.
+•GPU is ideal when you need heavy parallel processing, especially in AI.
+•TPU is a specialized chip for fast neural network (tensor) processing at scale.
+•NPU is built for efficient AI on devices, enabling fast and power-saving inference.
